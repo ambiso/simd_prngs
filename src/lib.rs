@@ -31,6 +31,7 @@ pub use simd_rng::*;
 pub mod rng_impl {
     pub use packed_simd::*;
     pub use rand::{Error, Rng, RngCore, SeedableRng};
+    pub use rand;
     pub use rotate_opts::RotateOpt;
     pub use simd_rng::*;
     pub use AsByteSliceMut;
