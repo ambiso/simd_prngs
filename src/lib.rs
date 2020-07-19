@@ -28,7 +28,7 @@ mod simd_rng;
 pub use prngs::*;
 pub use simd_rng::*;
 
-mod rng_impl {
+pub mod rng_impl {
     pub use packed_simd::*;
     pub use rand::{Error, Rng, RngCore, SeedableRng};
     pub use rotate_opts::RotateOpt;
